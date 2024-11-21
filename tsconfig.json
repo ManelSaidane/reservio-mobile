@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "jsx": "react",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/index.tsx", "App.tsx", "app/screens"  ],
+  "extends": "expo/tsconfig.base"
+}
